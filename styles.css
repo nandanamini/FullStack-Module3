@@ -1,0 +1,42 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+/* Section styling */
+section {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 700px; /* Ensuring large sections */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Background colors for distinction */
+#chicken { background: #f8d7da; } /* Light red */
+#beef { background: #d4edda; }    /* Light green */
+#sushi { background: #d1ecf1; }   /* Light blue */
+
+/* Back to Top link styling */
+.back-to-top {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Make sure navbar menu items collapse correctly */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
